@@ -24,6 +24,7 @@ public interface SampleDao {
 	// emp에서 최대, 최소 급여를 출력하는 메소드를 만들고 테스트하시오
 	@Select("select max(sal) as maxSal, min(sal) as minSal from emp")
 	public Map<String, Object> maxAndMin();
+	
 }
 
 
